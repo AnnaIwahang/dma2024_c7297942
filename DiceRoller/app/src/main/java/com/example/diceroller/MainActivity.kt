@@ -72,7 +72,7 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
     ) {
         Image(
             painter = painterResource(R.drawable.dice_1),
-            contentDescription = "1"
+            contentDescription = result.toString()
         )
         Spacer(modifier = Modifier.height(16.dp))
         Button(onClick = { /*TODO*/ }) {
